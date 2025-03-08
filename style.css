@@ -1,0 +1,15 @@
+.letters-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 15px; /* Space between letters */
+    max-width: 800px; /* Adjust width */
+    margin: auto; /* Center it */
+}
+
+.letter {
+    background: white;
+    padding: 15px;
+    border: 2px solid lavender; /* Light border */
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}

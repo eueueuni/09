@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Love, With Love</title>
+    <style>
+        /* Set the background to white */
+        body {
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 35px;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+
+        /* Centered, bold, uppercase text */
+        .center-text {
+            font-weight: bold;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        .button-container {
+            margin-top: 10px;
+        }
+
+        /* Button styles */
+        .button {
+            display: inline-block;
+            margin: 5px;
+            font-size: 18px;
+            color: black;
+            background-color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Image styling */
+        .image-container {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 300px;
+            display: block;
+            margin: auto;
+        }
+
+        /* Section title */
+        .section-text {
+            font-weight: bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        /* Letters Section - Grid Layout */
+        .letters-container {
+            width: 80%;
+            max-width: 800px;
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            text-align: left;
+        }
+
+        .letter {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 18px;
+            background-color: white;
+            padding: 15px;
+            border: 2px solid lavender;
+            border-radius: 8px;
+        }
+
+        /* Spotify playlist */
+        .spotify-container {
+            width: 90%;
+            max-width: 900px;
+            margin-top: 30px;
+        }
+
+        .spotify-container iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center-text">For Love, With Love</div>
+
+    <div class="button-container">
+        <a href="index.html" class="button">Home</a>
+        <a href="letters.html" class="button">Letters</a>
+        <a href="music.html" class="button">Music</a>
+    </div>
+
+    <div class="image-container">
+        <img src="https://media1.tenor.com/images/47083d776b26f1f94fc2cac16f6044f1/tenor.gif?itemid=11307892" 
+             alt="Snoopy Hugging Heart GIF">
+        
+        <div class="section-text">WEBSITE FOR YOU (＞ｖ＜)ゞ゜+</div>
+
+        <img src="dino.png" alt="Cute Dinosaur">
+
+        <div class="section-text">LETTERS</div>
+    </div>
+
+    <!-- Letters Section - Grid -->
+    <div class="letters-container">
+        <div class="letter">
+            Ever since I saw you, I knew there was something about you (maybe that's because I found you weird and annoying), but just so you know, you're the first person that my heart fell in love with.
+        </div>
+        <div class="letter">
+            I just want to thank you for loving me, and thank you for making me smile when I'm sad; I'm so grateful to be part of your life. I know I'm not the best gf, but know that I'm always here.
+        </div>
+        <div class="letter">
+            There's no specific reason kung bakit gusto kita and I don't think l'll ever know why. Hindi naman kasi ako mauubosan ng dahilan para gustohin ka. Mamahalin at gugustuhin as long as you're with me :pp
+        </div>
+        <div class="letter">
+            You are my greatest blessing, my safe place, and the reason my heart beats faster (not just because I'm sick or whatever).
+        </div>
+        <div class="letter">
+            You are someone beyond words, so much more than what you think you are as the person you are today. You are beyond the limits you think define you, you are capable of achieving things far greater than you imagine. There is and will always be so much more to you than you realize.
+        </div>
+    </div>
+
+    <!-- MUSIC SECTION -->
+    <div class="section-text">MUSIC</div>
+
+    <!-- Spotify Playlist -->
+    <div class="spotify-container">
+        <iframe src="https://open.spotify.com/embed/playlist/0N6cm1AFpz6VBAi88MRcqZ?utm_source=generator" 
+                frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy"></iframe>
+    </div>
+
+</body>
+</html>
